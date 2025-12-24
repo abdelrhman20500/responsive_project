@@ -4,10 +4,7 @@ import '../model/drawer_item_model.dart';
 import 'custom_drawer_item.dart';
 
 class CustomDrawerItemListView extends StatelessWidget {
-  const CustomDrawerItemListView({
-    super.key,
-    required this.model,
-  });
+  const CustomDrawerItemListView({super.key, required this.model,});
 
   final List<DrawerItemModel> model;
 

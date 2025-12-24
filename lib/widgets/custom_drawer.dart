@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_course/model/drawer_item_model.dart';
-
 import 'custom_drawer_item_list_view.dart';
 
 class CustomDrawer extends StatelessWidget {
-   CustomDrawer({super.key});
+   const CustomDrawer({super.key});
 
-  final List<DrawerItemModel> model=[
+  static final List<DrawerItemModel> model=[
     DrawerItemModel(title: "D A S H B O A R D", icon: Icons.home),
     DrawerItemModel(title: "S E T T I N G S", icon: Icons.settings),
     DrawerItemModel(title: " A B O U T", icon: Icons.info),
